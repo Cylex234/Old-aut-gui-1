@@ -52,11 +52,7 @@ MainSection:NewButton("TWEG", "The World Equal God", function()
 
 	game:GetService("ReplicatedStorage").Stand:FireServer("MIUStand",50,math.huge)
 
-	game:GetService("ReplicatedStorage").Stand:FireServer("MemeHierophantStand",50,math.huge)
-
 	game:GetService("ReplicatedStorage").Stand:FireServer("HeavenStarPlatinum",50,math.huge)
-	
-	game:GetService("ReplicatedStorage").Stand:FireServer("HierophantGreenStand",50,math.huge)
 
 	game:GetService("ReplicatedStorage").Stand:FireServer("KnightPotStand",50,math.huge,"\226\153\146\226\153\142\226\153\136\226\153\138\226\153\147\226\153\136\226\153\137\226\153\136\226\153\136\226\153\138")
 
