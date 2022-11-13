@@ -1,0 +1,47 @@
+    game:GetService("ReplicatedStorage").Samurai:FireServer()
+
+	game:GetService("ReplicatedStorage").VernsSamuraiSword:FireServer()
+
+	game:GetService("ReplicatedStorage").Chara:FireServer()
+
+	game:GetService("ReplicatedStorage").Stand:FireServer("HolyPotPlatinumStand",50,math.huge)
+
+	game:GetService("ReplicatedStorage").Stand:FireServer("KnightPotStand",50,math.huge,"\226\153\146\226\153\142\226\153\136\226\153\138\226\153\147\226\153\136\226\153\137\226\153\136\226\153\136\226\153\138")
+
+	game:GetService("ReplicatedStorage").Stand:FireServer("KingCrimsonRequiemStand",50,math.huge)
+
+	game:GetService("ReplicatedStorage").Stand:FireServer("GoldExperienceRequiemStand",50,math.huge)
+
+	game:GetService("ReplicatedStorage").MUI:FireServer()
+
+	game:GetService("ReplicatedStorage").MUIAnims:FireServer()
+
+	game:GetService("ReplicatedStorage").DRIPGOKU:FireServer()
+
+	game:GetService("ReplicatedStorage").OneMoreTime:FireServer()
+
+	game:GetService("ReplicatedStorage").OneMoreSacrifice:FireServer()
+
+	game:GetService("ReplicatedStorage").OneMoreBeatboxer:FireServer()
+
+	game:GetService("ReplicatedStorage").KarsULF:FireServer()
+
+	game:GetService("ReplicatedStorage").Kars:FireServer()
+
+	game:GetService("ReplicatedStorage").Stand:FireServer("StevePlatinum",50,math.huge)
+
+	game:GetService("ReplicatedStorage").Stand:FireServer("MemeHierophantStand",50,math.huge)
+
+	game:GetService("ReplicatedStorage").Stand:FireServer("wtfStand",50,math.huge)
+
+	game:GetService("ReplicatedStorage").Stand:FireServer("MIUStand",50,math.huge)
+
+	game:GetService("ReplicatedStorage").Stand:FireServer("PartyPotPlatinum",50,math.huge)
+
+	game:GetService("ReplicatedStorage").Stand:FireServer("VirtualShadowTheWorldStand",50,math.huge"\226\153\144\226\153\145\226\153\138\226\153\139\226\153\138\226\153\147\226\153\139\226\153\142\226")
+
+	game:GetService("ReplicatedStorage").SuperShadow:FireServer()
+
+	game:GetService("ReplicatedStorage").Sword:FireServer()
+    
+	game:GetService("ReplicatedStorage").Stand:FireServer("HierophantGreenStand",50,math.huge)
