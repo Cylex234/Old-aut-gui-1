@@ -142,7 +142,7 @@ MainSection:NewButton("Rd2's skin", "My Friend's skin", function()
 
 	game:GetService("ReplicatedStorage").Stand:FireServer("KingCrimsonRequiemStand",50,math.huge)
 
-	game:GetService("ReplicatedStorage").Stand:FireServer("GoldExperienceRequiemStand",)
+	game:GetService("ReplicatedStorage").Stand:FireServer("GoldExperienceRequiemStand",50,math.huge)
 
 	game:GetService("ReplicatedStorage").DRIPGOKU:FireServer()
 
