@@ -1,3 +1,5 @@
+Warn
+
 
 local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
 local Window = Library.CreateLib("TWOG/TWEG Private", "Midnight")
@@ -44,8 +46,6 @@ MainSection:NewButton("TWEG", "The World Equal God", function()
 
 	game:GetService("ReplicatedStorage").Stand:FireServer("KingCrimsonRequiemStand",50,math.huge)
 
-	game:GetService("ReplicatedStorage").Stand:FireServer("FreddyPlatinumStand",50,math.huge)
-
 	game:GetService("ReplicatedStorage").Stand:FireServer("GoldExperienceRequiemStand",50,math.huge)
 
 	game:GetService("ReplicatedStorage").SuperShadow:FireServer()
@@ -67,6 +67,9 @@ MainSection:NewButton("TWEG", "The World Equal God", function()
 	game:GetService("ReplicatedStorage").Stand:FireServer("HolyPotPlatinumStand",50,math.huge)
 
 	game:GetService("ReplicatedStorage").Stand:FireServer("VirtualShadowTheWorldStand",50,math.huge"\226\153\144\226\153\145\226\153\138\226\153\139\226\153\138\226\153\147\226\153\139\226\153\142\226")
+
+  game:GetService("ReplicatedStorage").OneMoreBeatboxer:FireServer()
+
 end)
 
 MainSection:NewButton("HPPBE", "Holy Pot Platinum But Evil", function()
@@ -136,6 +139,22 @@ end)
 
 MainSection:NewButton("TWOG", "I think so", function()
     loadstring(game:HttpGet("https://pastebin.com/raw/PEcfVS8A",true))()
+end)
+
+MainSection:NewButton("Rd2's skin", "My Friend's skin", function()
+    game:GetService("ReplicatedStorage").Samurai:FireServer()
+
+	game:GetService("ReplicatedStorage").Stand:FireServer("KingCrimsonRequiemStand",50,math.huge)
+
+	game:GetService("ReplicatedStorage").Stand:FireServer("GoldExperienceRequiemStand",)
+
+	game:GetService("ReplicatedStorage").DRIPGOKU:FireServer()
+
+	game:GetService("ReplicatedStorage").SuperShadow:FireServer()
+
+	game:GetService("ReplicatedStorage").Kars:FireServer()
+
+
 end)
 
 --Local Player
