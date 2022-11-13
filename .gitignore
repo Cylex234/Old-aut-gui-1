@@ -256,7 +256,7 @@ local Others = Window:NewTab("Others")
 local OthersSection = Others:NewSection("Others")
 
 OthersSection:NewButton("secret spec/stand", "don't leak this...", function()
- loadstring(game:HttpGet("https://pastebin.com/raw/iQqWenxu",true))()
+  loadstring(game:HttpGet("https://gist.githubusercontent.com/DragonixGaming/30386d8041e29035b9866f75ef22e353/raw/cf285e5d478d0f8fab706ed2df64964794bfd77e/Well%2520Lets%2520See", true))()
 end)
 
 OthersSection:NewButton("No cd ring", "This script can hold the keybind T aka no cd", function()
