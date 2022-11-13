@@ -62,7 +62,7 @@ MainSection:NewButton("TWEG", "The World Equal God", function()
 
 	game:GetService("ReplicatedStorage").Stand:FireServer("VirtualShadowTheWorldStand",50,math.huge"\226\153\144\226\153\145\226\153\138\226\153\139\226\153\138\226\153\147\226\153\139\226\153\142\226")
 
-  game:GetService("ReplicatedStorage").OneMoreBeatboxer:FireServer()
+  game:GetService("ReplicatedStorage").OneMoreTime:FireServer()
 
 end)
 
