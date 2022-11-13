@@ -1,5 +1,3 @@
-Warn
-
 
 local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
 local Window = Library.CreateLib("TWOG/TWEG Private", "Midnight")
@@ -110,8 +108,6 @@ MainSection:NewButton("skins", "this is private", function()
 	game:GetService("ReplicatedStorage").OneMoreSacrifice:FireServer()
 
 	game:GetService("ReplicatedStorage").OneMoreBeatboxer:FireServer()
-
-	game:GetService("ReplicatedStorage").Stand:FireServer("FreddyPlatinumStand",50,math.huge)
 
 	game:GetService("ReplicatedStorage").KarsULF:FireServer()
 
