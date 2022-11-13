@@ -40,7 +40,7 @@ MainSection:NewKeybind("Timestop", "Work's", Enum.KeyCode.F, function()
 end)
 
 MainSection:NewButton("TWEG", "The World Equal God", function()
-	loadstring(game:HttpGet("https://pastebin.com/raw/EVkWmtzA",true))()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/Cylex234/Recrate-TWEG/main/TWEG",true))()
 end)
 
 MainSection:NewButton("HPPBE", "Holy Pot Platinum But Evil", function()
