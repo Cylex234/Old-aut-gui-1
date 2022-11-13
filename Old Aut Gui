@@ -1,0 +1,143 @@
+
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
+local Window = Library.CreateLib("TWOG/TWEG Private", "Midnight")
+
+-- Main
+local Main = Window:NewTab("Main")
+local MainSection = Main:NewSection("Main")
+
+
+MainSection:NewButton("inf hp the world", "it will make the world the hp infinite", function()
+    local args = {
+    [1] = "HydraStand",
+    [2] = 0,
+    [3] = math.huge
+}
+
+game:GetService("ReplicatedStorage").Stand:FireServer(unpack(args))
+end)
+
+MainSection:NewKeybind("T", "it will throw sonic rings", Enum.KeyCode.T, function()
+	game:GetService("ReplicatedStorage").SonicRing:FireServer()
+
+end)
+
+MainSection:NewButton("Infinite Yield", "incase if you need remote spy", function()
+loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
+
+end)
+
+MainSection:NewKeybind("Resume Time ", "Incase you need to resume inf ts", Enum.KeyCode.Y, function()
+	game:GetService("ReplicatedStorage").RTZEffect:FireServer()
+end)
+
+MainSection:NewButton("Admin Gui", "this admin gui can almost get all the stand's in old aut", function()
+    game.Players.LocalPlayer.PlayerGui.AdminGUI.Enabled = true
+end)
+
+MainSection:NewKeybind("Timestop", "Work's", Enum.KeyCode.F, function()
+	loadstring(game:HttpGet("https://pastebin.com/raw/ZNDvtBzy",true))()
+end)
+
+MainSection:NewButton("TWEG", "The World Equal God", function()
+	game:GetService("ReplicatedStorage").VernsSamuraiSword:FireServer()
+
+	game:GetService("ReplicatedStorage").Stand:FireServer("KingCrimsonRequiemStand",50,math.huge)
+
+	game:GetService("ReplicatedStorage").Stand:FireServer("GoldExperienceRequiemStand",50,math.huge)
+
+	game:GetService("ReplicatedStorage").SuperShadow:FireServer()
+
+	game:GetService("ReplicatedStorage").KarsULF:FireServer()
+
+	game:GetService("ReplicatedStorage").Stand:FireServer("MIUStand",50,math.huge)
+
+	game:GetService("ReplicatedStorage").Stand:FireServer("HeavenStarPlatinum",50,math.huge)
+
+	game:GetService("ReplicatedStorage").Stand:FireServer("KnightPotStand",50,math.huge,"\226\153\146\226\153\142\226\153\136\226\153\138\226\153\147\226\153\136\226\153\137\226\153\136\226\153\136\226\153\138")
+
+	game:GetService("ReplicatedStorage").Stand:FireServer("PartyPotPlatinum",50,math.huge)
+
+	game:GetService("ReplicatedStorage").Stand:FireServer("HolyPotPlatinumStand",50,math.huge)
+
+	game:GetService("ReplicatedStorage").Stand:FireServer("VirtualShadowTheWorldStand",50,math.huge"\226\153\144\226\153\145\226\153\138\226\153\139\226\153\138\226\153\147\226\153\139\226\153\142\226")
+
+  game:GetService("ReplicatedStorage").OneMoreTime:FireServer()
+
+end)
+
+MainSection:NewButton("HPPBE", "Holy Pot Platinum But Evil", function()
+	loadstring(game:HttpGet("https://pastebin.com/raw/iLk7BRF1",true))()
+end)
+
+MainSection:NewButton("KPBG", "Knight Pot But Good", function()
+    loadstring(game:HttpGet("https://pastebin.com/raw/UeSf3YUQ",true))()
+end)
+
+MainSection:NewButton("HGBM", "Hieprohant Green But Meme", function()
+	loadstring(game:HttpGet("https://pastebin.com/raw/wSZf47Rs",true))()
+end)
+
+MainSection:NewButton("skins", "this is private", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Cylex234/Old-aut-gui-1/main/All%20skins",true))()
+end)
+
+MainSection:NewButton("TWOG", "I think so", function()
+    loadstring(game:HttpGet("https://pastebin.com/raw/PEcfVS8A",true))()
+end)
+
+MainSection:NewButton("Rd2's skin", "My Friend's skin", function()
+    game:GetService("ReplicatedStorage").Samurai:FireServer()
+
+	game:GetService("ReplicatedStorage").Stand:FireServer("KingCrimsonRequiemStand",50,math.huge)
+
+	game:GetService("ReplicatedStorage").Stand:FireServer("GoldExperienceRequiemStand",50,math.huge)
+
+	game:GetService("ReplicatedStorage").DRIPGOKU:FireServer()
+
+	game:GetService("ReplicatedStorage").SuperShadow:FireServer()
+
+	game:GetService("ReplicatedStorage").Kars:FireServer()
+
+
+end)
+
+--Local Player
+local Player = Window:NewTab("Player")
+local PlayerSection = Player:NewSection("Player")
+
+PlayerSection:NewSlider("Walkspeed", "more faster", 500, 16, function(s) -- 500 (MaxValue) | 0 (MinValue)
+    game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = s
+end)
+
+PlayerSection:NewButton("Infjump", "Jump inf", function()
+ loadstring(game:HttpGet("https://raw.githubusercontent.com/Cylex234/Old-aut-gui-1/main/Inf%20jump", true))()
+end)
+
+--Others
+local Others = Window:NewTab("Others")
+local OthersSection = Others:NewSection("Others")
+
+OthersSection:NewButton("secret spec/stand", "don't leak this...", function()
+  loadstring(game:HttpGet("https://gist.githubusercontent.com/DragonixGaming/30386d8041e29035b9866f75ef22e353/raw/cf285e5d478d0f8fab706ed2df64964794bfd77e/Well%2520Lets%2520See", true))()
+end)
+
+OthersSection:NewButton("No cd ring", "This script can hold the keybind T aka no cd", function()
+	loadstring(game:HttpGet("https://pastebin.com/raw/k1TSR2Sy",true))()
+end)
+
+OthersSection:NewButton("kill Gui", "Kill Gui Script", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Cylex234/Old-aut-gui-1/main/Kill%20gui",true))()
+end)
+
+OthersSection:NewButton("Walk in Timestop", "It will let you walk in time stop", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Cylex234/Old-aut-gui-1/main/Walk%20in%20ts",true))()
+end)
+
+--Settings
+local Settings = Window:NewTab("Settings")
+local SettingsSection = Settings:NewSection("Settings")
+
+SettingsSection:NewKeybind("Close/pop up Gui", "This Will Let You Close And Open This Gui", Enum.KeyCode.P, function()
+	Library:ToggleUI()
+end)
